@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <title>Instructure Challenge - Todd Johnson</title>
+  </head>
+  <body>
+
+    <div id="date-weather-display">
+      <div class="date-weather-element" id="date">
+        <div class="date-weather-visuals" id="date-vis">
+          <div>1/</div>
+          <div> 31</div>
+        </div>
+        <div class="date-text">Wednesday, January 30</div>
+      </div>
+
+      <div></div>
+
+      <div class="date-weather-element" id="weather">
+        <div id="weather-type">Partly Cloudy</div>
+          <div class="date-weather-visuals">
+            <i class="wi wi-night-partly-cloudy"></i>
+            <div id="degree-display">
+              28 <i class="wi wi-degrees"></i>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="clock">
+      <div class="canvas-wrap">
+        <canvas width="650" height="200" id="clock-canvas">
+        </canvas>
+      </div>
+    </div>
+
+    <div id="stock-display">
+      <div></div>
+      <div class="stock">
+        AAPL $133.02 <img src="uparrow.svg" alt="up" class="up-arrow">
+      </div>
+      <div class="stock">
+        GOOG $532.40 <img src="uparrow.svg" alt="up" class="up-arrow">
+      </div>
+      <div class="stock">
+        MSFT $44.11 <img src="uparrow.svg" alt="up" class="up-arrow">
+      </div>
+      <div></div>
+    </div>
+
+  <script src="./main.js"></script>
+  </body>
+</html>
